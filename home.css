@@ -83,4 +83,32 @@ main hr{
     font-weight: 300;
     letter-spacing: 0.12rem;
 }
+.thirdSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
 
+    border: 2px solid red;
+    width: 42vw;
+    height: 42vh;
+    margin: 10px 20px;
+    padding: 8px 8px;
+    line-height: 1.1rem;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.card h2{
+    text-align: center;
+    line-height: 4rem;
+}
+.card p{
+    text-align: justify;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-size: 15px;
+}
