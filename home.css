@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: 10px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +12,7 @@ body{
 }
 /* Header Here  */
 nav{
-    height: 60px;
+    height: 9vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -64,13 +65,13 @@ main hr{
 }
 /* Second section here  */
 .secondSection{
-    height: 50vh;
-    max-width: 40vw;
-    height: 50vh;
+    max-width: 46vw;
+    height: 64vh;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .secondSection h1{
     font-size: 4rem;
@@ -82,21 +83,23 @@ main hr{
     line-height: 1.5rem;
     font-weight: 300;
     letter-spacing: 0.12rem;
+    text-align: center;
 }
 .thirdSection{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .card{
-
-    border: 2px solid red;
-    width: 42vw;
-    height: 42vh;
-    margin: 10px 20px;
+    width: 22vw;
+    height: 55vh;
+    margin: 2rem 0.1rem;
     padding: 8px 8px;
     line-height: 1.1rem;
+    background-color: rgb(229, 218, 205);
+    color: black;
+    border-radius: 18px 18px;
 }
 .icon{
     display: flex;
@@ -104,11 +107,12 @@ main hr{
 }
 .card h2{
     text-align: center;
-    line-height: 4rem;
+    line-height: 2rem;
 }
 .card p{
+    display: inline;
     text-align: justify;
     letter-spacing: 0;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 1rem;
 }
