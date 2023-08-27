@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: 1350px 650px;
+    background: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .img img{
+    width: 17%;
+    margin-top: -18px;
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+}
+
+.btn .eng{
+    margin-inline: 22px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 43x;
+    cursor: text;
+}
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main{
+    text-align: center;
+    height: 400px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .home{
+    margin-top: 95px;
+    padding-top: 45px;
+}
+
+.main h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.main h3{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.main p{
+    font-size: 27px;
+    line-height: 50px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 25px;
+}
+
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(225, 11, 11);
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
+    padding: 66px;
+    border-top: 4px solid gray;
+
+}
+
+.first img{
+    width: 40%;
+}
+
+.first h1{
+    font-size: 55px;
+}
+
+.first p{
+    font-size: 27px;
+}
+
+.first img{
+    width: 44%;
+}
+
+section .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+
+.buttons{
+    align-items: center;
+}
+
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 26px;
+    margin-left: 26%;
+    text-align: left;
+}
+
+button{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 53px;
+}
+footer p{
+    cursor: pointer;
+}

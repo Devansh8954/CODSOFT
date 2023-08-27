@@ -59,7 +59,7 @@ header{
 }
 
 .logo{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -112,7 +112,7 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 4em;
+    gap: 15em;
 }
 
 .home-content{
@@ -629,6 +629,7 @@ section{
 }
 
 .port-box{
+    position: relative; 
     border-radius: 15px;
     overflow: hidden;
     background: #292e33;
@@ -640,6 +641,8 @@ section{
 }
 
 .port-image{
+    position: absolute; 
+    z-index: 5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -655,7 +658,8 @@ section{
 }
 
 .port-content{
-    position: relative; /* absolute*/
+    position: relative; 
+    z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
