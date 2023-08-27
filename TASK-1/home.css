@@ -4,11 +4,13 @@
 }
 
 body{
-    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
-    background-size: 1350px 650px;
-    background: no-repeat;
     background-color: black;
     color: white;
+}
+
+header{
+    background: url(./image/back.jpg)  no-repeat ;
+    background-size: 1350px 650px;
 }
 
 h1{
@@ -17,7 +19,13 @@ h1{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    overflow: hidden;
+}
+
+nav .img{
+    display: flex;
+    align-items: center;
 }
 
 nav .img img{
@@ -27,19 +35,18 @@ nav .img img{
 
 nav .btn{
     display: flex;
-    margin-top: 12px;
+    align-items: center;
 }
 
 .btn .eng{
-    margin-inline: 22px;
+    margin-inline: 10px;
     width: 110px;
-    height: 40px;
+    height: 35px;
     background-color: black;
     color: white;
     font-size: 19px;
     border: 2px solid white;
     border-radius: 5px;
-    margin-left: 43x;
     cursor: text;
 }
 
@@ -54,7 +61,7 @@ nav .btn{
 
 .btn .sign{
     width: 90px;
-    height: 40px;
+    height: 35px;
     background-color: red;
     color: white;
     font-size: 19px;
@@ -106,6 +113,9 @@ nav .btn{
     height: 58px;
     border: none;
     font-size: 25px;
+    background: none;
+    border: 2px solid gray;
+    border-radius: 6px;
 }
 
 .input button{
@@ -115,6 +125,7 @@ nav .btn{
     color: white;
     font-size: 26px;
     border: none;
+    border-radius: 6px;
 }
 
 .first{
@@ -142,17 +153,26 @@ nav .btn{
     width: 44%;
 }
 
-section .text{
+.first .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.first h1{
+    padding: 0 10%;
+}
+
+.first p{
+    text-align: left;
+    padding: 0 10%;
+}
+
 .buttons h1{
     text-align: center;
     margin-top: 33px;
-    font-size: 44px;
+    font-size: 43px;
 }
 
 .buttons{
@@ -162,11 +182,13 @@ section .text{
 .buttons button{
     width: 600px;
     height: 60px;
-    background-color: gray;
+    background-color: rgb(58, 56, 56);
     color: white;
     font-size: 26px;
     margin-left: 26%;
     text-align: left;
+    margin-top: 5px;
+    padding: 0 20px;
 }
 
 button{
@@ -180,6 +202,15 @@ footer{
     border-top: 4px solid gray;
     margin-top: 53px;
 }
+
 footer p{
     cursor: pointer;
+    margin: 8px;
+    text-decoration: underline;
 }
+
+footer .list{
+    display: flex;
+    flex-direction: column;
+}
+
